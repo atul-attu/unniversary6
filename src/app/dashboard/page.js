@@ -5,6 +5,7 @@ function dashboard() {
   return (
     <div>
       {/* <Qrfile/> */}
+      
     </div>
   )
 }

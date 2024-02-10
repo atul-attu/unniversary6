@@ -339,7 +339,7 @@ function Login() {
                 {
                     registration ? <form onSubmit={handleClick}>
                         <div className='regfrom'>
-                            <input required minlength="10" type='tel' value={mobilenumber} placeholder='Mobile Number' onChange={(event) => {
+                            <input required minLength="10" type='tel' value={mobilenumber} placeholder='Mobile Number' onChange={(event) => {
                                 setmobilenumber(event.target.value)
                             }}></input>
                             <input required value={firstname} placeholder='First Name' onChange={(event) => {
@@ -365,7 +365,7 @@ function Login() {
                 {
                     loginstate ? <form onSubmit={loginClick}>
                         <div className='regfrom'>
-                            <input required type='tel' minlength='10' value={mobilenumber} placeholder='Mobile Number' onChange={(event) => {
+                            <input required type='tel' minLength='10' value={mobilenumber} placeholder='Mobile Number' onChange={(event) => {
                                 setmobilenumber(event.target.value)
                             }}></input>
                             <button type="submit"  > Submit</button>
